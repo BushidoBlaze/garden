@@ -1,0 +1,9 @@
+.footer-image__background {
+    background-image: url("../assets/images/footer.png");
+    width: 100%;
+    height: 109vh;
+    background-size: cover;
+    background-position: 50% 80%;
+    z-index: -1;
+    rotate: 360deg;
+}

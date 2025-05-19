@@ -1,0 +1,14 @@
+/*Шапка страницы*/
+/*@import "header.css";*/
+
+/*Основной контент на странице*/
+@import "main.css";
+
+/*Подвал страницы*/
+@import "footer.css";
+
+/*Глобальные стили - сброс базовых стилей браузера*/
+@import "global.css";
+
+/*Локальные шрифты*/
+@import "../assets/fonts/fonts.css";

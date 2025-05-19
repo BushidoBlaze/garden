@@ -1,0 +1,19 @@
+/*Bristol regular font*/
+@font-face {
+    font-family: 'Bristol';
+    src: url('../fonts/bristol/Bristol.woff2') format('woff2');
+
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; /* Оптимизация загрузки */
+}
+
+/*JejuMyeongjo regular font*/
+@font-face {
+    font-family: 'JejuMyeongjo';
+    src: url('../fonts/jejumyeongjo/JejuMyeongjo-Regular.woff2') format('woff2');
+
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

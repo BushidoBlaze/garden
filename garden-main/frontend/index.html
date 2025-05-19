@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Главная страница</title>
+</head>
+<body>
+<header class="header"></header>
+<main class="main">
+    <div class="main__image-container">
+        <div class="main__image-description">
+            <h1 class="main__image-title">Растения. Узнавай. Ухаживай.</h1>
+            <p class="main__image-text">
+                Сайт позволяет определять виды растений по фотографии и даёт <br>
+                рекомендации по уходу за ними
+            </p>
+            <span class="main__image-button">
+                <a href="#form__analysis" class="main__image-link">Попробовать</a>
+            </span>
+        </div>
+    </div>
+    <div class="about-us__container">
+        <div class="about-us__description">
+            <h2 class="about-us__title">PLANTASIA</h2>
+            <p class="about-us__text">
+                распознавание растений и рекомендации по уходу посредством загрузки фотографий. Сайт помогает
+                пользователям определить вид растения, подобрать оптимальный уход, включая полив, освещение и удобрения,
+                делая заботу о зеленых питомцах проще и доступнее.
+            </p>
+            <img class="about-us__image" src="assets/images/about-us-image-2.jpg" alt="background-about-us">
+        </div>
+        <div class="about-us__species">
+            <img class="about-us__image" src="assets/images/about-us-image-1.jpg" alt="background-about-us">
+            <ul class="about-us__list">
+                <li class="about-us__item">
+                    <img src="assets/images/icon/leaf.svg" alt="leaf-icon">
+                    +35 000 видов растений
+                </li>
+                <li class="about-us__item">
+                    <img src="assets/images/icon/leaf.svg" alt="leaf-icon">
+                    сведения о растениях: инструкции по уходу
+                </li>
+                <li class="about-us__item">
+                    <img src="assets/images/icon/leaf.svg" alt="leaf-icon">
+                    названия растений
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="form__container">
+        <form class="form" action="" method="post">
+            <div class="form__controls">
+                <div class="form__upload">
+                    <img src="assets/images/icon/uploaded-image.svg" class="form__uploaded-image"
+                         alt="Загруженное изображение">
+                    <button class="form__upload-button" type="submit">+ Загрузить изображение</button>
+                </div>
+                <button id="form__analysis" class="form__analysis-button" type="submit">Анализировать</button>
+            </div>
+        </form>
+    </div>
+</main>
+<footer>
+    <div class="footer-image__background"></div>
+</footer>
+<script src="js/services/plantService.js"></script>
+<script src="js/ui/imageUploader.js"></script>
+<script src="js/ui/plantInfoRenderer.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
